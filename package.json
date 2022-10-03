@@ -1,0 +1,19 @@
+{
+  "name": "cypress_e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "headTest":"npx cypress run --headed",
+    "googleTest":"npx cypress run --browser chrome",
+    "dashboardTest":"npx cypress run --record --key 77d40007-5d8e-40a4-810b-06e20ae5b819"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.9.0"
+  }
+  
+}
